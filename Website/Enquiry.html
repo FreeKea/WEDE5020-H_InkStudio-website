@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Makes the page responsive on various mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>H_InkStudio</title>
+
+    <!-- Adding font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Linking to external stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+    
+    <!-- Header of the Website -->     
+   <header>
+
+    <!-- Logo of the studio/website -->
+    <img src="images/Logo.jpg" 
+         alt="H_InkStudio Logo"
+         class="logo">
+
+    <!-- Header of the Website and tagline --> 
+    <h1>H_InkStudio</h1>
+
+    <p>Custom Tattoos | Personal Designs | Your story in ink</p>
+    <p>Tattooing since April 2023</p>
+
+    </header>
+
+    <!--- Keeping my navigation at the top of website when scrolling down the page -->
+    <div class="nav-bar">
+        
+    <!-- Navigation for Website -->
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Services.html">Services</a>
+        <a href="Portfolio.html">Portfolio</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Enquiry.html" class="active">Enquiry</a>
+    </nav>
+    </div> 
+
+    <!-- Main Page Content -->
+    <main>
+
+        <!-- Section for Enquiry Intro -->
+        <section class="enquiry-intro">
+
+            <h2>Make an Enquiry</h2>
+
+            <p>
+                Have an idea for your next tattoo?
+                Fill in the form below and tell me a little
+                about your design. I'll get back to you
+                to discuss your idea and the next steps.
+            </p>
+
+        </section>
+
+    <!-- Enquiry Form -->
+    <form class="enquiry-form">
+
+            <div class="form-group">
+
+                <label for="name">Full Name</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your name"
+                    required>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="email">Email Address</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Your email address"
+                    required>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="phone">Phone Number</label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Your phone number">
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="tattoo-type">Type of Tattoo</label>
+
+                <select id="tattoo-type" name="tattoo-type">
+
+                    <option value="">Please select</option>
+
+                    <option value="custom">Custom Tattoo</option>
+
+                    <option value="small">Small Tattoo</option>
+
+                    <option value="cover-up">Cover-Up</option>
+
+                    <option value="personal-design">Personal Design</option>
+
+                    <option value="other">Other</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="placement">Where would you like the tattoo?</label>
+
+                <input
+                    type="text"
+                    id="placement"
+                    name="placement"
+                    placeholder="For example: forearm, shoulder, back, etc.">
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="size">Approximate Size</label>
+
+                <input
+                    type="text"
+                    id="size"
+                    name="size"
+                    placeholder="For example: 10 cm">
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="description">Tell Me About Your Tattoo Idea</label>
+
+                <textarea
+                    id="description"
+                    name="description"
+                    placeholder="Describe your tattoo idea, style, colours, meaning, etc."
+                    required></textarea>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="date">Preferred Appointment Date</label>
+
+                <input
+                    type="date"
+                    id="date"
+                    name="date">
+
+            </div>
+
+
+            <button type="submit" class="submit-button">
+                Send Enquiry
+            </button>
+
+        </form>     
+        
+
+    </main>
+
+    <!-- Website Footer -->
+    <footer>
+        <p><strong>H_InkStudio</strong>
+    </p>
+
+    <p>
+    
+        <a href="https://www.instagram.com/h_inkstudio/"
+           target="_blank"
+           rel="noopener noreferrer">
+            @h_inkstudio
+        </a>
+        &nbsp; | &nbsp;
+        <a href="Contact.html">Contact</a>
+        &nbsp; | &nbsp;
+        Port Elizabeth, Eastern Cape
+    </p>
+
+    <p>
+        &copy; 2026 H_InkStudio. All rights reserved.
+    </p>
+
+</footer>
+</body>
+
+</html>
