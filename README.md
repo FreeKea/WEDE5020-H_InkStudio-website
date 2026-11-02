@@ -1,4 +1,4 @@
-<img width="1080" height="2340" alt="samples of web pages - 1" src="https://github.com/user-attachments/assets/1dd4ad55-b022-41c5-b0ff-f0e12684fcf1" />
+
 Website for H_InkStudio
 
 Keanan Lionel Freeman
