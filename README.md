@@ -57,9 +57,6 @@ Below are a few screenshots of the website on mobile and desktop designs (curren
 Home page:
 <img width="1080" height="2340" alt="samples of web pages - 1" src="https://github.com/user-attachments/assets/ab52a998-2e52-4707-b566-5df885e1d95d" />
 
-About page:
-<img width="1080" height="3222" alt="samples of web pages - 2" src="https://github.com/user-attachments/assets/9c64856c-b60d-44f4-a9e6-abc8b899bcb1" />
-
 Enquiry page:
 <img width="1080" height="3228" alt="samples of web pages - 3" src="https://github.com/user-attachments/assets/7fede985-a440-45d7-8d4b-03398dc47101" />
 
